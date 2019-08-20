@@ -6,7 +6,7 @@
 - 例）自分の/home/配下に置く
 ```
 $ cd ~
-$ curl -L -O https://github.com/ka-san/dotfiles/blob/master/git/commit.template/.git_commit_template
+$ curl -L -O https://raw.githubusercontent.com/ka-san/dotfiles/master/git/commit.template/.git_commit_template
 ```
  
 ### git-configでcommit.template設定
