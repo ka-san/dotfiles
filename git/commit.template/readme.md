@@ -4,8 +4,10 @@
 ## 導入方法
 ### 任意の場所にテンプレートファイルを用意
 - 例）自分の/home/配下に置く
-> cd ~
-> curl -L -O https://github.com/ka-san/dotfiles/blob/master/git/commit.template/.git_commit_template
+```
+$ cd ~
+$ curl -L -O https://github.com/ka-san/dotfiles/blob/master/git/commit.template/.git_commit_template
+```
  
 ### git-configでcommit.template設定
 > git config --global commit.template ~/.git_commit_template
