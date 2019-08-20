@@ -22,5 +22,7 @@ git config --global alias.difff 'diff --name-only'
 ```bash
 git config --global color.ui true
 git config --global grep.lineNumber true
+git config --global core.editor vim
 ```
 - grep.lineNumber：git-grepで常に行番号を表示する
+- core.editor：git-commit しようとしたときに、何やらエラーが出る場合
