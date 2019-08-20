@@ -10,5 +10,7 @@ $ curl -L -O https://github.com/ka-san/dotfiles/blob/master/git/commit.template/
 ```
  
 ### git-configでcommit.template設定
-> git config --global commit.template ~/.git_commit_template
-> git config commit.template ~/.git_commit_template
+```
+$ git config --global commit.template ~/.git_commit_template
+$ git config commit.template ~/.git_commit_template
+```
