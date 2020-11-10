@@ -17,6 +17,7 @@ git config --global alias.fe 'fetch'
 git config --global alias.cmfix 'commit --fixup'
 git config --global alias.logone 'log -1 --name-status'
 git config --global alias.difff 'diff --name-only'
+git config --global alias.diffs 'diff --cached'
 ```
 ## その他
 ```bash
