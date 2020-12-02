@@ -20,6 +20,7 @@ git config --global alias.difff 'diff --name-only'
 git config --global alias.diffs 'diff --cached'
 ```
 ## その他
+### カラーとか行番号とか
 ```bash
 git config --global color.ui true
 git config --global grep.lineNumber true
@@ -27,3 +28,7 @@ git config --global core.editor vim
 ```
 - grep.lineNumber：git-grepで常に行番号を表示する
 - core.editor：git-commit しようとしたときに、何やらエラーが出る場合
+
+### git（ターミナル上）日本語ファイル名を表示する
+> git config --local core.quotepath false
+- 全体設定でいいなら --globa
