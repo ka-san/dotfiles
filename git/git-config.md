@@ -32,6 +32,7 @@ git config --global core.editor vim
 ### git（ターミナル上）日本語ファイル名を表示する
 ```
 git config --local core.quotepath false
+or
 git config --global core.quotepath false
 ```
 - 全体設定でいいなら --global
