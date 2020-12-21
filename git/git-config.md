@@ -30,5 +30,8 @@ git config --global core.editor vim
 - core.editor：git-commit しようとしたときに、何やらエラーが出る場合
 
 ### git（ターミナル上）日本語ファイル名を表示する
-> git config --local core.quotepath false
-- 全体設定でいいなら --globa
+```
+git config --local core.quotepath false
+git config --global core.quotepath false
+```
+- 全体設定でいいなら --global
