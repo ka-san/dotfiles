@@ -6,6 +6,20 @@ git config --global user.name "hoge"
 git config --global user.email "hoge@fuga.com" 
 ```
 
+## エディタの確認・変更
+```
+#core.editor
+$ git config -l | grep core
+$ git config --global core.editor vim
+```
+
+### AWS Cloud9 は ~/.bashrc の中で定義してる箇所を変更
+```
+#~/.bashrc :23
+    # Set default editor for git
+    git config --global core.editor nano
+```
+
 ## alias
 ```bash
 git config --global alias.logg "log --graph --pretty=oneline --abbrev-commit --decorate  --date=short --format='%C(yellow)%h%C(reset) %C(auto)%d%C(reset) %s %C(cyan)@%an%C(reset) %C(magenta)%ad%C(reset)'"
