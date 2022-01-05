@@ -1,4 +1,10 @@
 # git-completion.bash を導入する
+## windowsの場合
+- vscode導入して、ターミナル設定をGitBashにしちゃったほうが早い
+  - 【Windows/Mac】gitでTab補完を有効にする方法 | tachiのゆるブログ https://tachi15.com/programing/git-completion/#toc2
+```
+"terminal.integrated.defaultProfile.windows": "Git Bash"
+```
 ## bash編
 - git/git-completion.bash at master · git/git https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 ### 導入方法
