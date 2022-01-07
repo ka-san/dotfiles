@@ -50,3 +50,15 @@ or
 git config --global core.quotepath false
 ```
 - 全体設定でいいなら --global
+
+
+## .gitignore のテンプレート
+### 大抵の言語、フレームワークのはこのへんにある（ありがたや
+- github/gitignore: A collection of useful .gitignore templates https://github.com/github/gitignore
+
+```
+$ curl -L  https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore -o .gitignore
+# -o： ファイル名を指定してDL
+```
+
+
