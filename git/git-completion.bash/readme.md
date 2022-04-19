@@ -41,3 +41,5 @@ fpath=(~/.zsh $fpath)
 ↓記述したら再読み込み
 > % source ~/.zshrc
 
+## Mac導入参考
+【zsh】絶対やるべき！ターミナルでgitのブランチ名を表示&補完【git-prompt / git-completion】 - Qiita https://qiita.com/mikan3rd/items/d41a8ca26523f950ea9d
